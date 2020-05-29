@@ -7,8 +7,6 @@ Node.js playground Web API using [Express](https://expressjs.com/)
 </p>
 
 ## Notes
-Go version 1.14
-
 The idea of this project is to provide all the apis that exists in my other repositories [NetCore.Playground.Api](https://github.com/joacod/NetCore.Playground.Api) and [go-playground-api](https://github.com/joacod/go-playground-api)
 
 What we get from this:
@@ -23,6 +21,9 @@ I have created three UI projects to consume the APIs created here, you can use e
 
 ## Prerequisites
 - [Install Node.js](https://nodejs.org/)
+- Setting of [debug](https://github.com/visionmedia/debug) (Only first time, before running application)
+  - $env:DEBUG='app';node app.js (for Windows Powershell)
+  - Look at documentation of [debug library](https://github.com/visionmedia/debug) for different platforms
 
 ## How to Run it
 1. From the terminal: `node app.js`
