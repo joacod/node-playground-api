@@ -24,5 +24,10 @@ I have created three UI projects to consume the APIs created here, you can use e
 ## Prerequisites
 - [Install Node.js](https://nodejs.org/)
 
-## Installation and Setup
-Coming soon...
+## How to Run it
+1. From the terminal: `node app.js`
+2. Once it's running, go to a browser
+3. Hit the following url http://localhost:8080/
+
+## What you will find so far :heavy_check_mark:
+- [x] Web API created with Node.js and Express
