@@ -1,16 +1,16 @@
-var express = require("express");
-var chalk = require("chalk");
-var debug = require("debug")("app");
-var morgan = require("morgan");
+const express = require("express");
+const chalk = require("chalk");
+const debug = require("debug")("app");
+const morgan = require("morgan");
 
-var app = express();
+const app = express();
 
 app.use(morgan("tiny"));
 
-app.get("/", function (req, resp) {
+app.get("/", (req, resp) => {
   resp.send("Hello Node.js Playground API");
 });
 
-app.listen(8080, function () {
+app.listen(8080, () => {
   debug(`Listening on port ${chalk.green("8080")}`);
 });
