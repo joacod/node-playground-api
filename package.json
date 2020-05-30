@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/joacod/node-playground-api#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "chalk": "^4.0.0",
     "debug": "^4.1.1",
     "express": "^4.17.1",
@@ -27,7 +28,9 @@
     "nodemon": "^2.0.4"
   },
   "nodemonConfig": {
-    "ignore": ["node_modules/**/node_modules"],
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
     "delay": "2500"
   }
 }

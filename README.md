@@ -27,6 +27,7 @@ I have created three UI projects to consume the APIs created here, you can use e
 - [chalk](https://github.com/chalk/chalk) (Terminal string styling)
 - [morgan](https://github.com/expressjs/morgan) (HTTP request logger middleware for node.js)
 - [nodemon](https://github.com/remy/nodemon) (Monitor for any changes in your node.js application and automatically restart the server)
+- [axios](https://github.com/axios/axios) (Promise based HTTP client)
 
 ## How to Run it
 1. From the terminal: `npm start`
