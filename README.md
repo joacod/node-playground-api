@@ -23,10 +23,10 @@ I have created three UI projects to consume the APIs created here, you can use e
 - [Install Node.js](https://nodejs.org/)
 
 ## Some of the libraries used
-- [debug](https://github.com/visionmedia/debug)
-- [chalk](https://github.com/chalk/chalk)
-- [morgan](https://github.com/expressjs/morgan)
-- [nodemon](https://github.com/remy/nodemon)
+- [debug](https://github.com/visionmedia/debug) (Debugging utility modelled after Node.js)
+- [chalk](https://github.com/chalk/chalk) (Terminal string styling)
+- [morgan](https://github.com/expressjs/morgan) (HTTP request logger middleware for node.js)
+- [nodemon](https://github.com/remy/nodemon) (Monitor for any changes in your node.js application and automatically restart the server)
 
 ## How to Run it
 1. From the terminal: `npm start`
