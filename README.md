@@ -21,9 +21,12 @@ I have created three UI projects to consume the APIs created here, you can use e
 
 ## Prerequisites
 - [Install Node.js](https://nodejs.org/)
-- Setting of [debug](https://github.com/visionmedia/debug) (Only first time, before running application)
-  - $env:DEBUG='app';node app.js (for Windows Powershell)
-  - Look at documentation of [debug library](https://github.com/visionmedia/debug) for different platforms
+
+## Some of the libraries used
+- [debug](https://github.com/visionmedia/debug)
+- [chalk](https://github.com/chalk/chalk)
+- [morgan](https://github.com/expressjs/morgan)
+- [nodemon](https://github.com/remy/nodemon)
 
 ## How to Run it
 1. From the terminal: `npm start`
