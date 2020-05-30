@@ -22,7 +22,7 @@ I have created three UI projects to consume the APIs created here, you can use e
 ## Prerequisites
 - [Install Node.js](https://nodejs.org/)
 
-## Some of the libraries used
+## Some libraries used
 - [debug](https://github.com/visionmedia/debug) (Debugging utility modelled after Node.js)
 - [chalk](https://github.com/chalk/chalk) (Terminal string styling)
 - [morgan](https://github.com/expressjs/morgan) (HTTP request logger middleware for node.js)
