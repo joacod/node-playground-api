@@ -4,12 +4,10 @@ const debug = require("debug")("app");
 const morgan = require("morgan");
 
 const app = express();
-
 app.use(morgan("tiny"));
 
-app.get("/", (req, resp) => {
-  resp.send("Hello Node.js Playground API");
-});
+const appRouter = require("./src/routes/appRouter");
+app.use("/", appRouter);
 
 app.listen(8080, () => {
   debug(`Listening on port ${chalk.green("8080")}`);
