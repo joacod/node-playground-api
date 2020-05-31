@@ -1,4 +1,3 @@
-const axios = require("axios");
 const debug = require("debug")("app:lyricsController");
 
 function lyricsController(lyricsService) {
@@ -6,8 +5,10 @@ function lyricsController(lyricsService) {
     try {
       const artist = req.params.artist;
       const song = req.params.song;
-      
-      res.send("Lyrics " + artist + " " + song);
+
+      let result = await lyricsService.getLyrics(artist, song);
+
+      res.send(result);
     } catch (err) {
       debug("ERROR in lyricsController");
       //debug(err.stack);
